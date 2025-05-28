@@ -46,8 +46,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.title("💬 Knowledge Assistant")
-st.markdown("Ask a question to explore the knowledge base.")
+st.title("Susutainable Methods Knowledge Assistant")
+st.markdown("Ask a question to explore the sustainable methods wiki. This app uses a faiss vector database with the word embeddings of the entire wiki")
 
 # Input form
 with st.form(key='question_form'):
